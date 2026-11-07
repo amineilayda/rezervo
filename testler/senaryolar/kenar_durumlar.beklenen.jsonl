@@ -1,0 +1,17 @@
+{"no":1,"komut":"kullanici_ekle","durum":"TAMAM"}
+{"no":2,"komut":"kullanici_ekle","durum":"RED","kod":"TANIMSIZ_DEGER"}
+{"no":3,"komut":"kullanici_ekle","durum":"RED","kod":"GECERSIZ_DEGER"}
+{"no":4,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r1","ucret":4,"bakiye":116}
+{"no":5,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r2","ucret":4,"bakiye":296}
+{"no":6,"komut":"paket","durum":"RED","kod":"PAKET_RED","kalemler":[{"sira":0,"durum":"RED","kod":"KESISME"},{"sira":1,"durum":"RED","kod":"GECMIS_ZAMAN"}]}
+{"no":7,"komut":"paket","durum":"RED","kod":"PAKET_ICI_KESISME","kalemler":[{"sira":0,"durum":"TAMAM"},{"sira":1,"durum":"TAMAM"}]}
+{"no":8,"komut":"saat","durum":"TAMAM","olaylar":[]}
+{"no":9,"komut":"giris","durum":"TAMAM","yeni_durum":"KULLANIMDA"}
+{"no":10,"komut":"bekleme","durum":"TAMAM","bekleme_id":"b1","sira":1}
+{"no":11,"komut":"bekleme","durum":"TAMAM","bekleme_id":"b2","sira":2}
+{"no":12,"komut":"saat","durum":"TAMAM","olaylar":[]}
+{"no":13,"komut":"cikis","durum":"TAMAM","yeni_durum":"TAMAMLANDI","guvenilirlik":80,"olaylar":[]}
+{"no":14,"komut":"saat","durum":"TAMAM","olaylar":[{"zaman":"2027-03-08T10:15","tur":"GELMEDI","rezervasyon":"r2","kullanici":"u3","guvenilirlik":65},{"zaman":"2027-03-15T00:00","tur":"HAFTALIK_SIFIRLAMA"}]}
+{"no":15,"komut":"sorgu","durum":"TAMAM","doluluk":[]}
+{"no":16,"komut":"sorgu","durum":"TAMAM","bakiye":120,"guvenilirlik":80,"rezervasyonlar":[{"id":"r1","kaynak":"ODA-1","baslangic":"2027-03-08T09:00","bitis":"2027-03-08T09:30","durum":"TAMAMLANDI","ucret":4}]}
+{"no":17,"komut":"saat","durum":"RED","kod":"SAAT_GERI"}
